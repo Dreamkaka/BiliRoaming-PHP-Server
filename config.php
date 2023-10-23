@@ -109,8 +109,8 @@ if (CUSTOM_HOST_TW == "CUSTOM_HOST_TW") {
 
 // 指定HTTP或SOCKS5代理
 define('PROXY_ON', 1); // 开启功能。0 否, 1 是
-//define('PROXY_TYPE', "CURLPROXY_HTTP"); // 使用HTTP代理
-define('PROXY_TYPE', "CURLPROXY_SOCKS5"); // 使用SOCKS5代理
+define('PROXY_TYPE', "CURLPROXY_HTTP"); // 使用HTTP代理
+//define('PROXY_TYPE', "CURLPROXY_SOCKS5"); // 使用SOCKS5代理
 define('PROXY_IP', "https://bili-api.xiaohan-kaka.gay"); // 自行修改地址（web脚本用）
 define('PROXY_IP_CN', ""); // 自行修改地址（CN）
 define('PROXY_IP_HK', ""); // 自行修改地址（HK）
